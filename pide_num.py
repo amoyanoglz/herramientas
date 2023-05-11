@@ -8,5 +8,4 @@ def pideUnNum():
         invalido = True
         entrada = input(msg)
 
-
     return int(entrada)
