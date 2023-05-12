@@ -7,9 +7,8 @@ def main():
     indice = elegir_de_lista.elegir_indice(lista)
     print("##### el usuario ha elegido ####")
     elegir_de_lista.elemento_lista(lista, indice)
-
     print()
     print("##### el aleatorio ha elegido ####")
-    elegir_de_lista.elemento_lista(lista, elegir_de_lista.elegir_aleatorio(lista))
+    elegir_de_lista.elemento_lista(lista, elegir_de_lista.elegir_indice_azar(lista))
 
 main()
